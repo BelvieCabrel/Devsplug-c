@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main(){
+int main(){
     int a,b;
     printf("entrer deux nomnres");
     scanf("%d,%d",&a,&b);
@@ -7,9 +7,9 @@ void main(){
 
 
     if (a%b==0){
-        printf("output: true");
+        return 1;
     }
     else{
-        printf("output: false");
+        return 0;
     }
 }
